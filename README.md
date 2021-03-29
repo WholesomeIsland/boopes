@@ -43,3 +43,6 @@ but to call methods in a class,
 ```c
 call_method(YourCLass, ex, MethodName);
 ```
+
+## License
+boopes is licensed under the GPLv2. the full license should be located in the LICENSE file in the same directory as this one. if you have not received a copy of the license with this software, it can be found at [gnu.org/licenses/old-licenses/gpl-2.0.html](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
