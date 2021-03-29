@@ -13,6 +13,6 @@ int main(int argc, char const *argv[])
         printf("doesn't Work");
     }
     file* f = file_ctor("filetest.txt", "r");
-    puts(call_method(file, f, ToString));
+    printf(call_method(file, f, ToString));
     return 0;
 }
