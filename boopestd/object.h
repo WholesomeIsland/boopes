@@ -13,6 +13,7 @@ return "";
 object* obj_ctor(){
 object* obj = new(object);
 obj->ToString = &ToStr;
+return obj;
 }
 
 
