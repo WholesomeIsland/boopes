@@ -4,12 +4,17 @@ Basic Object-Oriented Programming for Embedded Systems
 
 boopes is a OOP framework for the C programming language. 
 it is meant for embedded/small systems like phones, tablets, etc. 
+I created boopes so i didnt need to use GObject.
+Apperantly it also makes C not look like C.
 
 ## what does boopes support?
 
 - single inheritance
 - classes
 - constructors
+
+## How Does It Work?
+when you create a class, its actually a struct. inheritance creates a super object inside that struct. functions are actually function pointers that you manually fill in the constructor. the this pointer in functions is actually the first argument of that method.
 
 ## Usage
 
