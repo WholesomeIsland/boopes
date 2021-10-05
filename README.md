@@ -17,7 +17,7 @@ Apperantly it also makes C not look like C.
 when you create a class, its actually a struct. inheritance creates a super object inside that struct. functions are actually function pointers that you manually fill in the constructor. the this pointer in functions is actually the first argument of that method.
 
 ## Requirements
-you need a c preprocessor that supports ##__VA_ARGS__ because boopes uses this. for embedded systems you can do the rpeprocessing with a desktop version of gcc, then compile with the compiler for the system your programming for.
+you need a c preprocessor that supports ##__VA_ARGS__ because boopes uses this. for embedded systems you can do the peprocessing with a desktop version of gcc, then compile with the compiler for the system your programming for.
 
 ## Usage
 
