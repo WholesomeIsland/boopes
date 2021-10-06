@@ -24,13 +24,13 @@ you need a c preprocessor that supports ##__VA_ARGS__ because boopes uses this. 
 ```c
 #include "boopes.h"
 //the class YourClass derives from object
-class(YourClass) inherits_from(object)
-//classes can have variables.
-int a;
-//a method prototype
-method_proto(YourClass, MethodReturnType, MethodName);
-//the end of the class definition
-class_end(YourClass)
+class(YourClass) { 
+    inherits_from(object)
+    //classes can have variables.
+    int a;
+    //a method prototype
+    method_proto(YourClass, MethodReturnType, MethodName);
+}; // the end of the class definition
 ```
 constructors need to be crated manually. for example, a constructor for the class above could be
 ```c
