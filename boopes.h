@@ -1,5 +1,5 @@
-#ifndef D46FF7A0_740D_4319_B785_9B6F99A23FD5
-#define D46FF7A0_740D_4319_B785_9B6F99A23FD5
+#ifndef _BOOPES_H_
+#define _BOOPES_H_
 
 #include <stdlib.h>
 
@@ -13,4 +13,4 @@
 #define delete(object) free(object)
 
 
-#endif /* D46FF7A0_740D_4319_B785_9B6F99A23FD5 */
+#endif /* _BOOPES_H_ */
